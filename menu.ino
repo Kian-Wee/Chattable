@@ -140,7 +140,7 @@ void mainLoop(void){
           //Serial.println("Tetris Start");
           //ingame=1;
           //runTetris();
-          rgbmatrix();
+          //rgbmatrix();
           break;  
         case 2:
           Serial.println("Rainbow Start");
@@ -174,12 +174,12 @@ void mainLoop(void){
           //led2[1] = CRGB::White;
           //led3[1] = CRGB::White;
           //led4[2] = CRGB::White;
-          //ingame=2;
+          ingame=1;
           runSnake();
           break; 
         case 8:
           Serial.println("Pong Start");
-          //ingame=2;
+          ingame=1;
           runPong();        
           break;  
         case 9:
